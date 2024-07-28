@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "autogen-playground"
+version = "0.1.0"
+description = ""
+authors = ["Eli Collinson <eli@elicollinson.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9"
+pyautogen = "^0.2.32"
+pydantic = ">1,<2"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

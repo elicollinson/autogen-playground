@@ -1,0 +1,8 @@
+*/.cache/*
+*/.venv/*
+*/.vscode/*
+*/.pytest_cache/*
+poetry.lock
+*.pyc
+cache.db
+launch.json
